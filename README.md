@@ -16,7 +16,8 @@ For every tutorial, to make the output work, we may use PHP CLI.
 ## Perequsites
  * PHP > 5.3 Installed
  * PHP CLI Enabled
-## Usage:
+
+## Running demo(s)
 
 ```sh
 $ php php-good-to-know/<lesson folder>/<lesson file> [args...]
