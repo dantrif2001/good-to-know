@@ -54,6 +54,7 @@ public class Main {
          * Another way to define an array, assuming we already know the array keys
          * Is to specify them in the order we want using curly braces { for start and } for end, while separating
          * them using a comma (,)
+         * This way we indirectly tell Java how many numbers the array contains
          */
         int[] anotherIntArrayExample = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
@@ -66,5 +67,9 @@ public class Main {
         System.out.println(anotherIntArrayExample[6]);
         System.out.println(anotherIntArrayExample[8]);
 
+        /**
+         * In Java, we cannot declare an array without specifying the size. For this, we have to use List(ArrayList)
+         * which is not subject for this particular tutorial but it will be covered in a later one.
+         */
     }
 }
